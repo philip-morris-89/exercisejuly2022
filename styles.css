@@ -1,0 +1,136 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "helvetica neue", helvetica, sans-serif;
+  font-size: 16px;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1080px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: #fe9900;
+  padding: 1rem;
+}
+
+.banner .titoli {
+  padding: 0.75rem;
+}
+
+.banner .titoli h1,
+.banner .titoli h3 {
+  padding: 0.25rem;
+}
+
+.banner img {
+  max-width: 7rem;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* ---------------------------------------- Nav */
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  background-color: #9c5d00;
+}
+
+nav ul li {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffc164;
+  margin-right: 1px;
+}
+
+nav ul li.active a {
+  font-weight: bold;
+}
+
+nav ul li a {
+  font-size: 1rem;
+  padding: 1rem;
+  color: black;
+}
+
+/* ---------------------------------------- Main */
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+main section {
+  background-color: #ddd6cc;
+  padding: 1rem;
+}
+
+main section h4,
+main section p,
+main section h5 {
+  padding: 1rem;
+}
+
+main section h4 {
+  font-size: 1.5rem;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  background-color: #c57600;
+  padding: 1rem;
+}
+
+aside h2 {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+aside ul {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+aside ul li {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1px;
+}
+
+aside ul li a {
+  background-color: #ffc164;
+  font-size: 1rem;
+  padding: 1rem;
+  color: black;
+}
+
+/* ---------------------------------------- Footer */
+
+footer {
+  padding: 2rem;
+  background-color: #4b4a48;
+  color: white;
+  text-align: center;
+}
